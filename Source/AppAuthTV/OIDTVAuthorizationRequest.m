@@ -100,7 +100,8 @@
   static NSString *const kHTTPPost = @"POST";
   static NSString *const kHTTPContentTypeHeaderKey = @"Content-Type";
   static NSString *const kHTTPContentTypeHeaderValue =
-      @"application/x-www-form-urlencoded; charset=UTF-8";
+      @"application/x-www-form-urlencoded";
+      //@"application/x-www-form-urlencoded; charset=UTF-8";
 
   OIDTVServiceConfiguration *tvConfiguration = (OIDTVServiceConfiguration *)self.configuration;
 

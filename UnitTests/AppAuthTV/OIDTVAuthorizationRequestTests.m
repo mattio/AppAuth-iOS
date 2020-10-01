@@ -83,7 +83,8 @@ static NSString *const kHTTPContentTypeHeaderKey = @"Content-Type";
 /*! @brief Expected @c ContentType header value for the authorization @c URLRequest
  */
 static NSString *const kHTTPContentTypeHeaderValue =
-    @"application/x-www-form-urlencoded; charset=UTF-8";
+    @"application/x-www-form-urlencoded";
+    //@"application/x-www-form-urlencoded; charset=UTF-8";
 
 @implementation OIDTVAuthorizationRequestTests
 
